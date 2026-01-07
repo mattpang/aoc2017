@@ -16,7 +16,8 @@ pos = 0
 lines = d.splitlines()[:-1]
 tally = 0 
 
-reg['a'] = 1
+# set this and watch the registers
+# reg['a'] = 1
 
 while pos>=0 and pos<=len(lines):
 
