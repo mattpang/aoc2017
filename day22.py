@@ -108,3 +108,4 @@ def run_pt2(n,debug=False):
 # assert run_pt2(10000000) == 2511944
 print(run(10000))
 print(run_pt2(10000000))
+
