@@ -39,7 +39,15 @@ while pos>=0 and pos<=len(lines):
                 pos += B 
                 continue
     
-    print(reg['a'],reg['b'],reg['c'],reg['d'],reg['e'],reg['f'])
+    # print(reg['a'],reg['b'],reg['c'],reg['d'],reg['e'],reg['f'])
     pos+=1       
 
 print(tally)
+
+h = 0
+for x in range(106700,123700 + 1,17):
+	for i in range(2,x):
+		if x % i == 0:
+			h += 1
+			break
+print(h)
